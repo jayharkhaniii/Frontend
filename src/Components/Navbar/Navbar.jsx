@@ -12,7 +12,7 @@ const Navbar = () => {
     const{getTotalCartItems} = useContext(ShopContext); 
   return (
     <div className='navbar'>
-      <div className="nav-logo">
+      <div className="nav-logo">  
         <img src={logo} alt=''/>
         <p>BUYERS</p>
       </div>
